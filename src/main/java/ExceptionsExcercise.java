@@ -12,9 +12,12 @@ public class ExceptionsExcercise {
                 System.out.println(tab[i]);
             }
         }
-        catch (Exception e) {
+        catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Exception caught");
             System.out.println(e.getMessage());
         }
+//        catch (Exception a) {
+//
+//        }
     }
 }
