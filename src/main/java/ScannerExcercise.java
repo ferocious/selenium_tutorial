@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Main {
+public class ScannerExcercise {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
         System.out.println("Input a:");
         int a = scanner.nextInt();
 
