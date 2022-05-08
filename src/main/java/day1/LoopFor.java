@@ -1,6 +1,8 @@
+package day1;
+
 import java.util.Scanner;
 
-public class LoopWhile {
+public class LoopFor {
     public static void main(String[] args) throws InterruptedException {
         int number;
 
@@ -8,7 +10,7 @@ public class LoopWhile {
         System.out.println("Enter number: ");
         number = scanner.nextInt();
 
-        while(number > 0){
+        for(int i = number; i > 0 ;i--) {
             Thread.sleep(500);
             System.out.println("The bomb will explode in " + number + "s...");
             number--;
@@ -18,4 +20,3 @@ public class LoopWhile {
         System.out.println("...............EXPLODED!..............");
     }
 }
-

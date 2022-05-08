@@ -1,3 +1,5 @@
+package day1;
+
 public class ExceptionsExcercise {
     public static void main(String[] args) {
 
